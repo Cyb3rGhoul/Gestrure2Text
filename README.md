@@ -1,75 +1,78 @@
-# Getting Started with Create React App
+# Gesture2Text
 
-This project was bootstrapped with Chakra UI & [Create React App](https://github.com/facebook/create-react-app).
+![Gesture2Text](https://www.linkpicture.com/q/landing_1.png)
 
-## ScreenShots
+Gesture2Text is a machine learning model integrated with Google Meet to enable real-time gesture detection for inclusive communication during meetings.
 
-<img src="iphone1.png">
-<img src="mac2.png">
+## Overview
 
-## Available Scripts
+- Detects gestures in real time.
+- Facilitates communication for differently-abled individuals.
+- Integrates seamlessly with Google Meet.
+- Front-end built with React; back-end powered by Flask.
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+Before you begin, ensure you have met the following requirements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Node.js and npm:** Install Node.js and npm to run the React front-end.
+- **Python and Flask:** Install Python and Flask for the back-end.
+- **Webcam Access:** Ensure your system allows access to the webcam for gesture detection.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/yourusername/Gesture2Text.git
+   ```
+2. **Front-end (React) setup:**
 
-### `npm run build`
+   ```bash
+   cd Gesture2Text/frontend
+   npm install
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Back-end (Flask) setup:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd Gesture2Text/backend
+   pip install -r requirements.txt
+   python app.py
+   ```
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Start the React development server:**
 
-### `npm run eject`
+   ```bash
+   cd Gesture2Text/frontend
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **Run the Flask back end:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd Gesture2Text/backend
+   python app.py
+   ```
+3. **Access Gesture2Text:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   Open your web browser and visit `http://localhost:3000` to access Gesture2Text.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Demo
 
-## Learn More
+Watch a demo of Gesture2Text
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
+```
 
-### Code Splitting
+Replace the placeholders as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Image URL:** Replace `https://example.com/your-image.jpg` with the actual URL of your project's image.
+- **GitHub Repository URL:** Replace `https://github.com/yourusername/Gesture2Text.git` with your GitHub repository URL.
+- **Demo Video URL:** If you have a demo video, replace `https://example.com/demo-video` with the actual URL.
+- **Contribution Guidelines:** If you have specific contribution guidelines, create a `CONTRIBUTING.md` file and link to it.
+- **License:** Specify the actual license your project is under, or if it's MIT, keep it as is.
