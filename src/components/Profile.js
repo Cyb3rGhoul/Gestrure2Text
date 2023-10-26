@@ -26,7 +26,7 @@ function Profile() {
       </Box>
       <Box alignSelf="center" px="32" py="16">
         <Text fontWeight="bold" fontSize="2xl">
-          Helped over 200 Differntly abled people to communicate with the World
+          Helped over 200 Differently abled people to communicate with the World
           and express their thoughts
         </Text>
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
