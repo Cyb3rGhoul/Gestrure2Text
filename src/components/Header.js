@@ -56,7 +56,7 @@ function Header() {
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="300px"
-          src="https://github.com/Cyb3rGhoul/Gestrure2Text/blob/main/Picsart_23-10-05_18-44-10-948.jpg"
+          src="https://github.com/Cyb3rGhoul/Gestrure2Text/blob/main/Picsart_23-10-05_18-44-10-948.jpg?raw=true"
         />
       </Flex>
     </Stack>
