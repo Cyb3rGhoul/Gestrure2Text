@@ -45,7 +45,7 @@ function Header() {
             non-verbal expression. 🗣
           </Text>
           <Button mt={8} colorScheme="blue" onClick={() => window.open("/")}>
-            Try Real Time Translation
+            Learn How your Gestures can Talk
           </Button>
         </Box>
         <Image
